@@ -1,6 +1,6 @@
 import './card.styles.css'
 
-const Card = () =>{
+//const Card = () =>{
 const Card = (props) =>{
 
     const{name,email,id} = props 
@@ -15,5 +15,5 @@ const Card = (props) =>{
         </>
     )
 }
-}
+
 export default Card
